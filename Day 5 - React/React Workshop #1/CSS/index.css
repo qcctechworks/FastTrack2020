@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  flex-grow: 1;
+  max-height: 10%;
+  min-height: 40px;
+  color: gray;
+  background-color: black;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.counter h1 {
+  color: gray;
+  font-size: 72px;
+}
+
+.counter button {
+  padding: 2em 4em;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 15px;
+  margin:10px 10px;
+  transition: all 1s ease;
+  outline: none;
+  width: 90%;
+}
+
+.counter button:hover {
+  background-color: #65878F;
+}
