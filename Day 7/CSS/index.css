@@ -1,0 +1,41 @@
+* {
+  background-color: gray;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  width: 100%;
+  border: 2px solid black;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.player-card {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 250px;
+  display: inline-block;
+}
+
+.player-card:nth-child(2) {
+  transform: rotate(180deg);
+}
+
+.winner {
+  width: 100px;
+  height: 55px;
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
